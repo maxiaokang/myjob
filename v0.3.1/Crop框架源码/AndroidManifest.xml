@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.soundcloud.android.crop"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- 读写权限配置 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <application>
+
+        <!-- CropImageActivity必须配置 -->
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+    </application>
+
+</manifest>

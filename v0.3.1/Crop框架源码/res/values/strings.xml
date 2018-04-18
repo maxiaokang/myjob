@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="crop__saving">Saving picture…</string>
+    <string name="crop__wait">Please wait…</string>
+    <string name="crop__pick_error">No image sources available</string>
+    <string name="crop__done">DONE</string>
+    <string name="crop__cancel" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="permission_dialog_title">权限获取提示</string>
+    <string name="permission_dialog_message">游戏需要获取存储读写权限</string>
+    
+    <string name="error_info">错误信息</string>
+    <string name="error_tip">请传入正确的图片路径和图片名称</string>
+    <string name="sure">确定</string>
+    <string name="dialog_title">获取图片方式</string>
+    <string name="camera">拍照获取图片</string>
+    <string name="photo">选取相册图片</string>
+    <string name="exception">图片保存异常，请检查 权限／保存目录</string>
+    <string name="url_exception">图片URI转换异常</string>
+    <string name="save_success">图片保存成功</string>
+
+</resources>

@@ -3,11 +3,20 @@
 | 文档版本     | 作者          | 修订时间 | 修订内容 |
 | ----------- |:-------------:| -----:|--------:|
 |  v0.1   | 马晓康 | 2017年8月29日 | 选取照片并截图功能|    
-|  v0.3   | 马晓康 | 2018年4月3日 | 添加相机拍照功能，接口未变更|
+|  v0.3   | 马晓康 | 2018年4月3日 | 添加相机拍照功能，接口
+|  v0.3.1   | 马晓康 | 2018年4月18日 | corpImage接口参数增加distinguishability|
 ***
 ```
 前言：此文档旨在指导游戏开发人员接入该工具库，实现游戏中获取android系统图片的需求，请务必按照以下顺序实现接口。
 ```
+##文件结构：
+Crop ：项目依赖库
+
+README.md：接入指导文档
+
+TestSaveImage：SDK demo工程代码
+
+TestSaveImage.apk demo工程包
 ##开发准备：
 ###添加依赖库：
 ```
@@ -38,6 +47,7 @@ savePictures.initData(Activity activity,SavePicListener savePicListener)；
 /**
 *@param SAVE_REAL_PATH 自定义的图片保存路径
 *@param imageNameString 自定义的图片名称
+*@param distinguishability 自定义图片分辨率
 */
-savePictures.corpImage(String SAVE_REAL_PATH, String imageNameString);
-```
+savePictures.corpImage(String SAVE_REAL_PATH, String imageNameString,String distinguishability);
+```****
